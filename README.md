@@ -93,3 +93,38 @@ This repository presents a detailed workflow for building a potato leaf disease 
 4. Ensure appropriate security measures, such as authentication and encryption, to protect sensitive data during communication between the frontend and backend.
 
 By following this workflow, you can build an effective and user-friendly potato leaf disease detection system. For detailed information and step-by-step instructions, refer to the documentation and code provided in this repository.
+
+## Tools and Technologies Used
+
+This repository utilizes a range of tools and technologies to build a potato disease detection system. Here is a brief overview:
+
+### Visual Studio Code (VS Code)
+
+Visual Studio Code is the chosen code editor for writing, editing, and organizing the codebase. It provides a rich ecosystem of extensions from the marketplace, enhancing productivity and supporting various programming languages and frameworks.
+
+### TensorFlow
+
+TensorFlow, an open-source deep learning framework, is employed for building and training Convolutional Neural Network (CNN) models for potato disease detection. It offers a wide range of pre-built functions and tools to simplify model development, optimization, and evaluation. TensorFlow's high-level APIs, such as Keras, make it easier to design and train deep learning models.
+
+### Python
+
+Python is the primary programming language used to implement the potato disease detection system. Python's simplicity and readability make it well-suited for tasks such as image processing, data manipulation, and model training. The extensive ecosystem of Python libraries and packages, including NumPy, matplotlib, and scikit-learn, is leveraged for image loading, data preprocessing, visualization, and evaluation.
+
+### CNN (Convolutional Neural Network)
+
+Convolutional Neural Networks (CNNs) are utilized for detecting potato diseases. CNNs are specifically designed for image processing tasks and can automatically learn and extract relevant features from input images. Their ability to capture spatial dependencies and hierarchical representations makes them suitable for detecting complex patterns and structures in potato leaf images. Techniques like transfer learning, which utilize pre-trained CNN models, are employed to accelerate model development and improve performance with limited training data.
+
+### NumPy
+
+NumPy, a fundamental Python library for numerical computing, is used to convert potato leaf images into arrays. The multidimensional array objects provided by NumPy are leveraged to represent and manipulate the pixel values of the images efficiently.
+
+### React.js and React Native
+
+React.js is employed for building the frontend application, providing an efficient and responsive user interface for the potato disease detection system. React's virtual DOM concept enables efficient updating and rendering of UI elements, resulting in a smooth user experience. React's state management capabilities handle user interactions, manage image uploads, and display disease detection results. React Native, a framework for building native mobile applications, is utilized to develop a mobile version of the application, providing a native-like experience for mobile users.
+
+### FastAPI
+
+FastAPI, a high-performance web framework, is used as the backend for creating Python APIs. It enables the development of efficient and scalable API endpoints to handle image inputs and perform inference using the trained models.
+
+By leveraging these tools and technologies, the potato disease detection system is built with efficiency, scalability, and user experience in mind. For more detailed information and implementation instructions, please refer to the documentation and code provided in this repository.
+
