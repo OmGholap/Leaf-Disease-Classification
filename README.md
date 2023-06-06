@@ -128,3 +128,14 @@ FastAPI, a high-performance web framework, is used as the backend for creating P
 
 By leveraging these tools and technologies, the potato disease detection system is built with efficiency, scalability, and user experience in mind. For more detailed information and implementation instructions, please refer to the documentation and code provided in this repository.
 
+## Conclusions and Future Scope
+
+The research and development of the potato disease detection system using deep learning and digital image processing have yielded promising results. We have successfully created an automated system capable of accurately diagnosing and classifying Early Blight and Late Blight diseases in potato plants, leveraging powerful tools such as TensorFlow, CNNs, and data augmentation. This system empowers farmers with an efficient and reliable tool for timely disease detection, minimizing crop losses, and ensuring food security.
+
+However, there are areas where further improvements can be made. Expanding the dataset to include a wider range of potato varieties and disease severities would enhance the accuracy and generalizability of the system. Exploring advanced deep learning techniques, such as ensemble models and attention mechanisms, can help capture more intricate patterns and improve disease identification performance.
+
+Looking towards the future, there are several avenues for further enhancement. Integrating cloud-based solutions like TensorFlow Serving can enable scalable and efficient deployment of the disease detection system. Incorporating Internet of Things (IoT) and remote sensing technologies for continuous crop monitoring can provide real-time insights and enable proactive disease management. Additionally, considering sustainability, integrating sensor technologies and exploring hybrid mobile frameworks can deliver a seamless user experience while minimizing environmental impact.
+
+By addressing these shortcomings and pursuing the outlined scope for improvement, we can advance the field of potato disease detection, foster sustainable agricultural practices, and provide valuable support to farmers in mitigating economic losses worldwide.
+
+For more detailed information on the system's implementation, results, and future directions, please refer to the documentation and code provided in this repository.
