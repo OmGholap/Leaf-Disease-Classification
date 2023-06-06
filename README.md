@@ -46,3 +46,50 @@ The final step involves deploying the application and the tf Lite model to the G
 By following this workflow, we aim to provide an effective and accessible solution for leaf disease detection. The combined use of DIP, Deep Learning, and cloud-based deployment enables farmers to detect and address diseases promptly, minimizing crop losses and promoting sustainable agricultural practices.
 
 For more detailed information and implementation steps, please refer to the documentation and code provided in this repository.
+
+
+## Workflow
+
+This repository presents a detailed workflow for building a potato leaf disease detection system using Digital Image Processing (DIP) and Deep Learning. The workflow consists of several steps:
+
+### Data Collection and Preparation
+
+1. Collect a diverse dataset of digital images that includes healthy potato leaves, as well as samples of leaves affected by Early Blight and Late Blight.
+2. Annotate the dataset by labeling each image with the corresponding disease type (healthy, Early Blight, or Late Blight).
+3. Create training, validation, and testing sets from the annotated dataset.
+
+### Model Building
+
+1. Construct a Convolutional Neural Network (CNN) model using TensorFlow, a popular deep learning framework.
+2. Design the CNN model with suitable layers such as convolutional, pooling, and fully connected layers.
+3. Train the model using the training dataset to learn the features that distinguish healthy leaves from diseased ones.
+4. Optimize the model's parameters to improve its performance.
+5. Enhance the model's resilience and generalizability by applying data augmentation techniques, including random rotations, flips, and zooms.
+6. Use the TensorFlow Dataset (tf.data) API to efficiently load, preprocess, and batch the dataset.
+
+### Model Evaluation and Optimization
+
+1. Evaluate the performance of the trained model using the validation dataset, considering metrics such as accuracy, precision, recall, and F1 score.
+2. Adjust the model's hyperparameters and architecture based on the evaluation results.
+3. Apply model optimization techniques, such as quantization, to reduce the model's memory footprint and accelerate inference.
+4. Convert the optimized model to TensorFlow Lite format for deployment on devices with limited resources.
+
+### Backend Server
+
+1. Implement an API endpoint that accepts potato leaf images as input and performs inference using the trained model.
+2. Utilize TensorFlow Serving, a system for serving TensorFlow models, to enable efficient model deployment and inference.
+
+### Frontend Development
+
+1. Design an intuitive user interface that allows users to upload potato leaf images and displays the disease detection results.
+2. Implement image preprocessing on the frontend, including resizing and normalization, before sending the images to the backend server for inference.
+3. Develop a responsive and user-friendly interface that provides visual feedback on disease detection results and confidence scores.
+
+### Deployment to Google Cloud Platform (GCP)
+
+1. Deploy the backend server, built with FastAPI and TensorFlow Serving, to a cloud-based environment on the Google Cloud Platform (GCP).
+2. Set up the necessary infrastructure, such as a virtual machine instance or Kubernetes cluster, to host the backend server.
+3. Deploy the frontend application to GCP and configure it to interact with the backend server API.
+4. Ensure appropriate security measures, such as authentication and encryption, to protect sensitive data during communication between the frontend and backend.
+
+By following this workflow, you can build an effective and user-friendly potato leaf disease detection system. For detailed information and step-by-step instructions, refer to the documentation and code provided in this repository.
